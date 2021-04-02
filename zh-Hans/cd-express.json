@@ -1,4 +1,5 @@
 {
+  // 语言
   "title": "JSON schema for Google Chrome extension manifest files",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type":["object","array"],

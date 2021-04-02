@@ -5,6 +5,12 @@
                 "**/*.schematest1.json"
             ],
             "url": "./zh-Hans/test.json"
+        },
+        {
+            "fileMatch": [
+                "**/cd-express.json"
+            ],
+            "url": "./docs/schemas/cd-express.json"
         }
     ],
     "files.associations": {
