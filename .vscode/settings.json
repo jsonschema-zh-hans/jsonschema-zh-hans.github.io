@@ -1,0 +1,13 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "**/*.schematest1.json"
+            ],
+            "url": "./zh-Hans/test.json"
+        }
+    ],
+    "files.associations": {
+        "*.json": "jsonc"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "JSON schema for Google Chrome extension manifest files",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type":["object","array"],
+  "definitions": {
+      "//": {
+        "explainer": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#overview",
+        "reference": "https://www.typescriptlang.org/tsconfig",
+        "reference metadata": "https://github.com/microsoft/TypeScript-Website/blob/v2/packages/tsconfig-reference/scripts/tsconfigRules.ts"
+      },
+      "item":{
+        "type":"object",
+        "properties": {
+            "entry":{
+              "description": "入口",
+              "type":"object"
+            }
+        }
+      }
+  },
+  "$ref": "#/definitions/item",
+  "items": {
+    "$ref": "#/definitions/item"
+  }
+}
