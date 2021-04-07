@@ -1,6 +1,11 @@
 {
-  "author": {},
-  "dependencies": {
+  "name": "jsonschema-zh-hans.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jsonschema-zh-hans/jsonschema-zh-hans.github.io.git",
+  "author": "xczq <290353142@qq.com>",
+  "license": "MIT",
+  "dependencies":{
     "axios": "^0.21.1",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2"

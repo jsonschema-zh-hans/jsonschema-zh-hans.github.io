@@ -4,11 +4,6 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type":"object",
     "definitions": {
-        "//": {
-          "explainer": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#overview",
-          "reference": "https://www.typescriptlang.org/tsconfig",
-          "reference metadata": "https://github.com/microsoft/TypeScript-Website/blob/v2/packages/tsconfig-reference/scripts/tsconfigRules.ts"
-        },
         "port":{
           "type":["integer","string"],
           "description": "端口,默认 3000",
